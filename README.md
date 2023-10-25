@@ -47,7 +47,7 @@
   为了构建AI小冶钢铁领域问答系统，我们采用了T5模型作为基础模型，并分两个阶段对其进行了训练。第一阶段通过通用问答数据集的预训练提供了模型的语言理解和生成能力，第二阶段通过钢铁领域数据集的微调使模型具备钢铁领域问题的解答能力和专业知识。
 
 ![image]([\fig\11.png](https://github.com/Achilles008/oneapi_AIxiaoye/blob/main/fig/11.png))
-<img src="[https://github.com/Chen-Yi-Ran/OnlineStudy/blob/master/file/course.jpg](https://github.com/Achilles008/oneapi_AIxiaoye/blob/main/fig/11.png)" width="210px">
+<img src="https://github.com/Achilles008/oneapi_AIxiaoye/blob/main/fig/11.png" width="210px">
 ##### （1）模型预训练
 
   在第一阶段，我们使用大规模的通用问答数据集对T5模型进行预训练。中文T5模型是一个基于Transformer架构的多任务学习模型，具备了生成型和理解型任务的能力。
